@@ -1,0 +1,4 @@
+# Test allowlist
+!hello.txt
+sub/code.js
+new-feature.js

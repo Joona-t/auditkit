@@ -1,0 +1,4 @@
+Hello from LoveSpark!
+This is a test file for hash-tree verification.
+Version: 2.0
+Added a new line for diff testing.

@@ -1,0 +1,39 @@
+# Auditkit — Allowlist Template
+# Lines starting with ! are required (must exist in zip)
+# Lines starting with # are comments
+# All other lines are allowed file patterns (bash glob)
+
+# Required
+!manifest.json
+
+# Extension UI
+popup.html
+popup.js
+popup.css
+settings.html
+settings.js
+settings.css
+
+# Background
+background.js
+service-worker.js
+
+# Content scripts
+content.js
+content.css
+
+# Icons
+icons/*.png
+icons/*.svg
+
+# Libraries
+lib/*.js
+lib/*.css
+
+# Rules (declarativeNetRequest)
+rules.json
+rules/*.json
+
+# Assets
+*.png
+*.svg
